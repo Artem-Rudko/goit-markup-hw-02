@@ -1,7 +1,91 @@
 
+/* палитра цветов */
+/* Основной цвет текста #212121 */
+/* Вторичный цвет текста #757575  */
+/* Акцент #2196F3 */
+/* белый #ffffff */
+/* цвет контактных данных в футтере rgba(255, 255, 255, 0.6) */
 
+body {
+    background-color: #ffffff;
+    color: #757575;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* стилизация header */
+.logo-black {
+    color: #000000;
+    
+}   
+.logo-black span {
+    color: #2196F3;
+}
+
+.site-nav .list {
+    color: #000000;
+}
+
+.contacts a {
+    color: #757575;
+}
+
+.site-nav .list:hover,
+.site-nav .list:focus,
+.contacts a:hover,
+.contacts a:focus {
+    color: #2196F3;
+}
+
+
+/* Стилизация footer */
+
+footer {
+    background-color: #2F303A;
+}
+
+.logo-white {
+    color: #ffffff;
+}
+
+.logo-white span {
+    color: #2196F3;
+}
+
+.contacts .address {
+    color: #ffffff;
+}
+
+.contacts .phone,
+.contacts .email {
+    color: rgba(255, 255, 255, 0.6);
+}
 
 /* Стили для index.html */
 
 
 /* Стили для portfolio.html */
+
+.button {
+    color: #000000;
+}
+
+.button:hover,
+.button:focus {
+    background-color: #2196F3;
+    color: #ffffff;
+}
+
+.projects img {
+    width: 370px;
+}
+
+.projects-title {
+    color: #000000;
+}
