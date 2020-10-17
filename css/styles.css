@@ -14,6 +14,7 @@ body {
     font-family: "Roboto", sans-serif;
     font-size: 14px;
     font-weight: 400;
+    letter-spacing: 0.03em;
     background-color: var(--white);
     color: var(--secondary-color);
 }
@@ -94,6 +95,73 @@ address .footer.address {
 
 /* Стили для index.html */
 
+.hero {
+    background-color: var(--bgc-secondary);
+}
+
+.hero-title {
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: var(--bgc-main);
+}
+
+.hero-button {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.87;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.06em;
+    color: var(--bgc-main);
+    background-color: var(--accent-color);
+}
+
+.hero-button:hover,
+.hero-button:focus {
+    color: var(--accent-color);
+    background-color: var(--bgc-main);
+}
+
+.section-title {
+    font-weight: 700;
+    font-size: 36px;    
+    line-height: 1.167;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--main-color);
+} 
+
+.advantages .list-item {
+    font-weight: 700;
+    line-height: 1.143;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--main-color);
+}
+
+.list-description {
+    line-height: 1.714;
+}
+
+.team-name {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.188;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--main-color);
+}
+
+.team-position {
+    font-size: 16px;
+    line-height: 1.188 ;
+    text-align: center;
+    letter-spacing: 0.03em;
+}
 
 /* Стили для portfolio.html */
 
@@ -122,6 +190,11 @@ address .footer.address {
     font-size: 18px;
     line-height: 2.0;
     letter-spacing: 0.06em;
+}
+
+.projects-title:hover,
+.projects-title:focus {
+    color: var(--accent-color);
 }
 
 .projects-type {
